@@ -11,7 +11,7 @@ Consider a distribution $$p(x)$$ over images (a matrix of pixels) that assigns h
 
 ## Image Generation
 
-[Radford et al.](https://arxiv.org/abs/1710.10196) train a probabilistic model $$ p(x) $$ that assigns high probability to images that look like bedrooms (based on some training data):
+[Radford et al.](https://arxiv.org/abs/1710.10196) details how they trained a probabilistic model $$ p(x) $$ that assigns high probability to images that look like bedrooms (based on some training data):
 
 **Training Data**<br /> 
 ![bedroom1](bedroominpainting1.png)<br /> 
@@ -75,7 +75,7 @@ was starting to signing a major tripad of aid exile.]]
 
 ## Translation
 
-Suppose that we have gathered a training set of paragraphs that were transcribed in both English and Chinese. We can build a probabilistic mode $$ p(y|x) $$ to generate an English sentence $$ y $$ conditioned on the corresponding Chinese sentence $$ x $$; this is an instance of *machine translation*.
+Suppose that we have gathered a training set of paragraphs that were transcribed in both English and Chinese. We can build a probabilistic mode $$p(y given x)$$ to generate an English sentence $$ y $$ conditioned on the corresponding Chinese sentence $$ x $$; this is an instance of *machine translation*.
 
 ![Neural Machine Translation](nmt-model-fast.gif)
 
